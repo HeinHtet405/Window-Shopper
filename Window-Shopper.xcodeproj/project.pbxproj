@@ -12,6 +12,7 @@
 		EEA8B6CB1F595B3200D5A8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA8B6C91F595B3200D5A8F9 /* Main.storyboard */; };
 		EEA8B6CD1F595B3200D5A8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA8B6CC1F595B3200D5A8F9 /* Assets.xcassets */; };
 		EEA8B6D01F595B3200D5A8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA8B6CE1F595B3200D5A8F9 /* LaunchScreen.storyboard */; };
+		EEA8B6D91F59615700D5A8F9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8B6D81F59615700D5A8F9 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EEA8B6CC1F595B3200D5A8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA8B6CF1F595B3200D5A8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA8B6D11F595B3200D5A8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA8B6D81F59615700D5A8F9 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		EEA8B6C41F595B3200D5A8F9 /* Window-Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				EEA8B6D71F59613200D5A8F9 /* Views */,
 				EEA8B6C51F595B3200D5A8F9 /* AppDelegate.swift */,
 				EEA8B6C71F595B3200D5A8F9 /* ViewController.swift */,
 				EEA8B6C91F595B3200D5A8F9 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				EEA8B6D11F595B3200D5A8F9 /* Info.plist */,
 			);
 			path = "Window-Shopper";
+			sourceTree = "<group>";
+		};
+		EEA8B6D71F59613200D5A8F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEA8B6D81F59615700D5A8F9 /* CustomTextField.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				EEA8B6C81F595B3200D5A8F9 /* ViewController.swift in Sources */,
 				EEA8B6C61F595B3200D5A8F9 /* AppDelegate.swift in Sources */,
+				EEA8B6D91F59615700D5A8F9 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
