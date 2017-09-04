@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0BB1731F5CFE7500FE28C8 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0BB1721F5CFE7500FE28C8 /* Wage.swift */; };
 		EEA8B6C61F595B3200D5A8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8B6C51F595B3200D5A8F9 /* AppDelegate.swift */; };
 		EEA8B6C81F595B3200D5A8F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8B6C71F595B3200D5A8F9 /* ViewController.swift */; };
 		EEA8B6CB1F595B3200D5A8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA8B6C91F595B3200D5A8F9 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0BB1721F5CFE7500FE28C8 /* Wage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		EEA8B6C21F595B3200D5A8F9 /* Window-Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window-Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA8B6C51F595B3200D5A8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEA8B6C71F595B3200D5A8F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0BB1711F5CFE5500FE28C8 /* Wage */ = {
+			isa = PBXGroup;
+			children = (
+				EE0BB1721F5CFE7500FE28C8 /* Wage.swift */,
+			);
+			name = Wage;
+			sourceTree = "<group>";
+		};
 		EEA8B6B91F595B3200D5A8F9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		EEA8B6C41F595B3200D5A8F9 /* Window-Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				EE0BB1711F5CFE5500FE28C8 /* Wage */,
 				EEA8B6D71F59613200D5A8F9 /* Views */,
 				EEA8B6C51F595B3200D5A8F9 /* AppDelegate.swift */,
 				EEA8B6C71F595B3200D5A8F9 /* ViewController.swift */,
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEA8B6C81F595B3200D5A8F9 /* ViewController.swift in Sources */,
+				EE0BB1731F5CFE7500FE28C8 /* Wage.swift in Sources */,
 				EEA8B6C61F595B3200D5A8F9 /* AppDelegate.swift in Sources */,
 				EEA8B6D91F59615700D5A8F9 /* CustomTextField.swift in Sources */,
 			);
@@ -316,6 +328,7 @@
 				EEA8B6D61F595B3200D5A8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
